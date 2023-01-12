@@ -9,5 +9,5 @@ files_list = ['main.py', 'readme.md']
 
 def test_program():
     for filename in files_list:
-        assert filename in dir_files, f'The file `{filename}` is not found in the repository root'
+        assert filename in dir_files, f'No se encontró el archivo `{filename}` en la raíz del repositorio'
 
