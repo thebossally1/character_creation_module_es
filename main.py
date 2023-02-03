@@ -68,7 +68,7 @@ def main():
     char_name = input('... indica tu nombre: ')
     print(f'¡Bienvenido, {char_name}! '
           'Tienes 80 puntos de aguante, 5 puntos de ataque, y 10 puntos de defensa.')
-    print(('Puedes elegir una de las tres maneras de la Fuerza:')
+    print('Puedes elegir una de las tres maneras de la Fuerza:')
     print('Guerrero, Mago, Sanador')
     char_class = choice_char_class()
     print(start_training(char_name, char_class))
